@@ -1,7 +1,21 @@
 h1
-    {color: #0033ff;}   
+    {color: firebrick; 
+        font-family: serif; 
+        font-size: 45pt;
+        border-style:double;
+        margin: 5px;
+        border-width: 5px;
+        border-radius: 5px;
+        background-color:cornsilk;
+        width:460px;
+        padding-left: 20px;}
+
+h3
+    {color: darkslategray; font-family: serif;}
+
 #crnotice
     {font-size: 10pt}
+
 a
 {text-decoration: none; font-size: 10pt;}
 a:link
@@ -14,3 +28,18 @@ a:visited
     {color:darkgreen;}
 a:active
     {color:orangered;}
+
+section li 
+    {color:darkslategray; font-size:14pt;}
+
+.secondarylist
+    {color:darkred; font-size:12pt;}
+
+main>p
+    {color:darkslategray; font-family:serif; font-size:14pt;}
+
+img {float:right;margin-bottom: 40px;margin-right: 40px;}
+
+body{background-color:cornsilk;}
+
+footer{border-top:4px solid firebrick; width:200px;}
