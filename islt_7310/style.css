@@ -1,4 +1,20 @@
 h1
-{
-    color: #0033ff;
-}
+    {color: #0033ff;}   
+#crnotice
+    {font-size: 10pt}
+
+<!-- All this below is for the email link and Im quite sure that this is poorly optimized but functional -->
+
+a
+    {text-decoration:none;}
+    {font-size: 10pt}
+a:link
+    {color: firebrick;}
+a:hover
+    {color:darkgoldenrod;}
+a:focus 
+    {color:darkgoldenrod;}
+a:visited
+    {color:darkgreen;}
+a:active
+    {color:orangered;}
