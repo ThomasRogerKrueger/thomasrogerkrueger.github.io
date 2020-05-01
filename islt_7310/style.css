@@ -1,8 +1,10 @@
 /* <!--General style sheet for portfolio website. Validated April 19, 2020.-->*/
+
+
 h1
     {color:#E6B31E; 
         font-family: serif; 
-        font-size: 45pt;
+        font-size: 42pt;
         border-style:double;
         margin: 5px;
         border-width: 5px;
@@ -11,6 +13,9 @@ h1
         padding-left: 20px;
         text-align: center;
         padding-right:20px;
+        font-family: Spartan;
+        padding-top: 8px;
+        padding-bottom:3px;
 }
 h2
     {color:#E6B31E; font-family:serif;font-weight:600;line-height: 50%;text-decoration: underline;}
@@ -40,14 +45,17 @@ footer{
     font-size:10pt;
     color:#cacaca;
     padding-bottom: 5px;
-    position:absolute;
-    bottom:auto;
+    position:fixed;
+    bottom:0;
+    width:100%;
 }
 
 .box{width:210px;
     height:90px;
     background-image: url(images/backgroundimage.jpg);
-    background-size:cover;}
+    background-size:cover;
+    position:fixed;
+    bottom:0;}
 
 footer>p {margin:2px;}
 
@@ -204,6 +212,14 @@ section>p {color:#E6B31E;}
     #container{
         width:319px;
     }
+}
+@media print {
+    * {background:transparent !important;
+       color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+    nav{display:none;}
 }
 /* 
 #E6B31E - GOLD
