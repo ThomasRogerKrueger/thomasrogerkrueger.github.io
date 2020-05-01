@@ -1,0 +1,102 @@
+/* <!--General style sheet for NAVIGATION portfolio website. Validated April 19 2020. Wow-->*/
+.nav ul li{
+    list-style-type:none;
+    font-family: serif; 
+    font-size: 16pt;
+    border-left:double 8px;
+    margin: 2px;
+    background-color:#343434;
+    padding: 3px;
+    display:block;
+    width:160px;
+    position:relative;
+}
+
+nav>ul>li:hover>ul /*put in { after experimenting */ {
+    display:block;
+}
+
+nav>ul>li>ul {
+    
+    position:absolute;
+    left:85%;
+    width: 120px;
+    display:none;
+    top:0;
+}
+
+.seclevel {
+    font-size:14pt;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li a:hover 
+    {color:#FCFAF1;
+    border: 2px solid #E6B31E;
+}
+nav ul li a focus 
+    {color:#FCFAF1;}
+nav ul li a active
+    {color:white;}
+
+.nav a
+{color:#CACACA}
+.nav a:hover
+{color:white}
+.nav a:active
+{color:#E6B31E}
+
+header{
+    position:static;
+}
+
+#hamburger
+{display:none;}
+
+@media only screen and (max-width:640px) {
+    header
+    {position:absolute;
+    display:block;
+    }
+
+    
+    #hamburger{
+        display:inline-block;
+        padding-left:10px;
+        width:40px;
+        font-size: 40px;
+        margin-bottom:0;
+    }
+    nav ul, nav:active ul{
+        display:none;
+        position:inherit;
+        margin-top:0px;
+        margin-left:auto;
+        
+    
+    }
+    nav:hover ul {
+        display:block;
+    }
+    
+    nav:hover #mobileHide {
+		display: none;
+    }
+    
+    nav li {
+        text-align:center;
+        padding:0;
+        margin: 0;
+        }
+    .seclevel {display:none;}
+    
+    h2{line-height:25px;}
+}
+
+nav ul li ul {
+    display:none;
+}
+

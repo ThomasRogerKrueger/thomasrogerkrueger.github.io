@@ -1,45 +1,214 @@
+/* <!--General style sheet for portfolio website. Validated April 19, 2020.-->*/
 h1
-    {color: firebrick; 
+    {color:#E6B31E; 
         font-family: serif; 
         font-size: 45pt;
         border-style:double;
         margin: 5px;
         border-width: 5px;
         border-radius: 5px;
-        background-color:cornsilk;
-        width:460px;
-        padding-left: 20px;}
-
+        background-color:#343434;
+        padding-left: 20px;
+        text-align: center;
+        padding-right:20px;
+}
+h2
+    {color:#E6B31E; font-family:serif;font-weight:600;line-height: 50%;text-decoration: underline;}
 h3
-    {color: darkslategray; font-family: serif;}
+    {color: #C0B283; font-family: serif;}
 
-#crnotice
+.crnotice
     {font-size: 10pt}
 
-a
-{text-decoration: none; font-size: 10pt;}
-a:link
-    {color: firebrick;}
-a:hover
-    {color:darkgoldenrod;}
-a:focus 
-    {color:darkgoldenrod;}
-a:visited
-    {color:darkgreen;}
-a:active
-    {color:orangered;}
-
-section li 
-    {color:darkslategray; font-size:14pt;}
+li 
+    {color:#FCFAF1; font-size:14pt;}
 
 .secondarylist
-    {color:darkred; font-size:12pt;}
+    {color:#CACACA; font-size:12pt;}
 
 main>p
-    {color:darkslategray; font-family:serif; font-size:14pt;}
+    {color:#FCFAF1; font-family:serif; font-size:14pt;margin:3px;}
 
-img {float:right;margin-bottom: 40px;margin-right: 40px;}
+header
+    {display:inline-grid;
+    float:left;
+    padding-bottom:120%;
+}
+body{background-color:#343434;margin:15px;}
 
-body{background-color:cornsilk;}
+footer{ 
+    font-size:10pt;
+    color:#cacaca;
+    padding-bottom: 5px;
+    position:absolute;
+    bottom:auto;
+}
 
-footer{border-top:4px solid firebrick; width:200px;}
+.box{width:210px;
+    height:90px;
+    background-image: url(images/backgroundimage.jpg);
+    background-size:cover;}
+
+footer>p {margin:2px;}
+
+blockquote{color:#E6B31E}
+
+.explainpara
+{padding-left: 10px;}
+
+.footer a
+    {text-decoration: none;}
+.footer a:link
+    {color: #E6B31E;}
+.footer a:hover
+    {color:#FCFAF1;}
+.footer a:focus
+    {color:#FCFAF1;}
+.footer a:visited
+    {color:#CACACA;}
+.footer a:active
+    {color:white;}
+p>a
+    {text-decoration: none;}
+p>a:link
+    {color: #E6B31E;}
+p>a:hover
+    {color:#FCFAF1;}
+p>a:focus
+    {color:#FCFAF1;}
+p>a:visited
+    {color:#CACACA;}
+p>a:active
+    {color:white;}
+
+.firstletter::first-letter
+{font-size: 200%;}
+
+.firstletter
+{text-indent:45px;}
+
+#container{
+    width:960px;
+    margin:0px auto;
+}
+
+#left-column{
+    width:40%;
+    float:left;
+}
+
+#right-column{
+    width:40%;
+    float:left;
+}
+
+.left-columnimg{
+    float:left;
+    width:30%;
+    padding-left:15%;
+    padding-right:0%;
+    
+}
+
+.right-columnimg{
+    float:left;
+    padding-left:9%;
+    width:30%;
+}
+
+#center-columnimg{
+  margin-left: 30%;
+  margin-right: auto;
+    padding-top:100px;
+  width: 20%;
+}
+
+
+
+
+section>p {color:#E6B31E;}
+
+    .iframe-container{
+    position: relative;
+    padding-bottom:56.25%;
+    height:0;
+    left:0;
+    width:100%;
+    margin-top:200px;
+
+    }
+
+.iframe-container iframe{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+
+}
+
+@media screen and (max-width:959px){
+    #container{
+        width:100%
+    }
+    #left-column{
+        width:50%;
+    }
+    #right-column{
+        width:50%
+    }
+}
+
+
+@media screen and (max-width:640px){
+   #left-column{
+        width:100%;
+    }
+    #right-column{
+        width:100%
+    }      
+    .right-columnimg{
+        width:50%;
+        margin-left:19%;
+    }
+    .left-columnimg{
+        width:50%;
+        margin-left:12%      
+    }
+    #container{
+        margin-top:60px;
+        font-size:130%;
+    }
+    .iframe-container{
+    position: relative;
+    padding-bottom:56.25%;
+    height:0;
+    left:0;
+    width:100%;
+    margin-top:0px;
+
+    }
+
+.iframe-container iframe{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+
+}
+
+}
+
+@media screen and (max-width:319px){
+    #container{
+        width:319px;
+    }
+}
+/* 
+#E6B31E - GOLD
+#343434 - BLACK
+#FCFAF1 - OFF WHITE
+#CACACA - GREY
+*/
+
