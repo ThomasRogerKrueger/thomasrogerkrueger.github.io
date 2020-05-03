@@ -1,4 +1,6 @@
 /* <!--General style sheet for NAVIGATION portfolio website. Validated April 19 2020. Wow-->*/
+nav{height:100%}
+
 .nav ul li{
     list-style-type:none;
     font-family: serif; 
