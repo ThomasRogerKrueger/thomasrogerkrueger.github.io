@@ -48,6 +48,7 @@ footer{
     position:fixed;
     bottom:0;
     width:100%;
+    margin-top:60px;
 }
 
 /*I really don't want a footer background image but heres the css for it if you want to see*/
@@ -225,8 +226,9 @@ font-size:25px;}
     height:20px;
 }
 
-
-
+.jscript{
+    color:#FCFAF1;
+}
 
 @media screen and (max-width:959px){
     #container{
@@ -296,7 +298,9 @@ font-size:25px;}
 form{
     margin-top:60px;
 }
-
+    #mobilehide{
+        display:none;
+    }
     
     
 
@@ -330,6 +334,10 @@ form{
     width:319px;
     height:20px;
 }   
+
+    footer{
+        position:relative;
+    }
 
 @media screen and (max-width:319px){
     #container{
